@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Typewriter } from "react-simple-typewriter";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import hero from "../../img/hero.png";
 import skill1 from "../../img/skill1.png";
@@ -55,13 +56,13 @@ const Home = () => {
             <div className="col_1">
               <h4>BEst Skill On</h4>
               <button className="btn_shadow">
-                <img src={skill1} alt="" />
+                <LazyLoadImage src={skill1} alt="" />
               </button>
               <button className="btn_shadow">
-                <img src={skill2} alt="" />
+                <LazyLoadImage src={skill2} alt="" />
               </button>
               <button className="btn_shadow">
-                <img src={skill3} alt="" />
+                <LazyLoadImage src={skill3} alt="" />
               </button>
             </div>
           </div>
